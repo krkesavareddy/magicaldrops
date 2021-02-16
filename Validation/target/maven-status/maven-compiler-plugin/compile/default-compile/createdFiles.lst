@@ -1,0 +1,4 @@
+com\sk\magicaldrops\service\ValidationService.class
+com\sk\magicaldrops\service\ValidationServiceImpl.class
+com\sk\magicaldrops\controller\ValidationController.class
+com\sk\magicaldrops\MagicaldropsApplication.class
