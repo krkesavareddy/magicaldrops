@@ -12,26 +12,19 @@ public class ValidationController {
     @GetMapping("/")
     public String healthCheck() {
 
-        return "I am OK!";
+        return "I am validation service  i am  OK!";
     }
 @GetMapping("/phone/{otp}/{phoneNumber}")
     public boolean validatePhoneNumber(String otp,String phoneNumber){
-
-        boolean b= validateService.validteOtp(otp,phoneNumber);
-        return b;
+        return validateService.validteOtp(otp,phoneNumber);
     }
 
     @GetMapping("/address/{phoneNumber}/{address}")
     public boolean validateAddress(String phoneNumber,String address){
-        boolean b=validateService.validteAddress(phoneNumber,address);
-        return b;
+        return validateService.validteAddress(phoneNumber,address);
     }
     @GetMapping("/order/{phoneNumber}/{orderId}")
     public boolean validateOrderPlaced(String phoneNumber, String orderId){
-        boolean b= validateService.validateOrderPlacement(phoneNumber,orderId);
-        return b;
+        return validateService.validateOrderPlacement(phoneNumber,orderId);
     }
-
-
-
 }

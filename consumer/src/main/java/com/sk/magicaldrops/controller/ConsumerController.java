@@ -16,20 +16,17 @@ public class ConsumerController {
     @GetMapping("/")
     public String healthCheck() {
 
-        return "I am OK!";
+        return "I am consumer service i am OK!";
     }
 
     @PostMapping("/register")
     public int userRegistration(@RequestBody ConsumerDto consumerDto) {
-
-        int i = service.register(consumerDto);
-        return i;
+        return service.register(consumerDto);
     }
 
     @GetMapping("/validate/{otp}")
     public String validateOTP(@PathVariable int otp) {
-        String s = service.validate(otp);
-        return s;
+        return service.validate(otp);
     }
 
     @PostMapping("/orders")
@@ -37,14 +34,13 @@ public class ConsumerController {
         return service.orders(dto);
     }
 
-    /*@DeleteMapping("/order/{orderId}")
-    public boolean deleteorder(@PathVariable Integer orderId){
-        service.deleteOrder(orderId);
+    @DeleteMapping("/order/{orderId}")
+    public boolean deleteorder(@PathVariable int orderId){
+       return service.deleteorder(orderId);
     }
-*/
+
     @GetMapping("/payment")
     public String payment() {
-
         return service.payment();
     }
 

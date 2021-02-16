@@ -3,16 +3,16 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.example</groupId>
+		<groupId>com.sk</groupId>
 		<artifactId>magicaldrops</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 	<groupId>com.sk</groupId>
-	<artifactId>produser</artifactId>
+	<artifactId>consumer</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>produser</name>
-	<description>Demo project for Spring Boot</description>
+	<name>consumer service</name>
+	<description>providing service for consumer</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>

@@ -6,7 +6,8 @@ import com.sk.magicaldrops.dto.OrderResponseDto;
 import org.springframework.stereotype.Service;
 
 @Service
-public class ConsumerServiceImpl implements ConsumerService{
+public class ConsumerServiceImpl implements ConsumerService {
+
     @Override
     public int register(ConsumerDto dto) {
         //we are just saving User detailes and sent OTP to phone for validate.
@@ -29,5 +30,10 @@ public class ConsumerServiceImpl implements ConsumerService{
     public String payment() {
         //we need to consume external paypal service to perform payment
         return "your payment processed successfully soon you will receive water cane";
+    }
+
+    @Override
+    public boolean deleteorder(int orderId) {
+        return false;
     }
 }
