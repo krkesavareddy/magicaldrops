@@ -1,17 +1,19 @@
 package com.sk.magicaldrops.controller;
 
 import com.sk.magicaldrops.service.ValidationService;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class ValidationController {
+    public static Logger log = Logger.getLogger(ValidationController.class);
     @Autowired
     ValidationService validateService;
     @GetMapping("/")
     public String healthCheck() {
-
+log.info("healthcheck started in Validaton");
         return "I am validation service  i am  OK!";
     }
 @GetMapping("/phone/{otp}/{phoneNumber}")

@@ -4,18 +4,19 @@ import com.sk.magicaldrops.dto.ConsumerDto;
 import com.sk.magicaldrops.dto.OrderRequestDto;
 import com.sk.magicaldrops.dto.OrderResponseDto;
 import com.sk.magicaldrops.service.ConsumerService;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/consumer")
 public class ConsumerController {
+public static Logger log = Logger.getLogger(ConsumerController.class);
     @Autowired
     ConsumerService service;
-
     @GetMapping("/")
     public String healthCheck() {
-
+log.info("helthcheck started in consumer");
         return "I am consumer service i am OK!";
     }
 
