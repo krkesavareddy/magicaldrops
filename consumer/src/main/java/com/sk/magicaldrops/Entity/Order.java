@@ -8,7 +8,7 @@ import java.util.Map;
 
 @Data
 @NoArgsConstructor
-@Entity
+
 public class Order {
     
     @Id

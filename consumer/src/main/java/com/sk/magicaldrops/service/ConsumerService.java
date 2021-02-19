@@ -7,9 +7,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 
 public interface ConsumerService {
-    public int register(ConsumerDto dto);
+    public void register(ConsumerDto dto);
     public String validate(int otp);
     public OrderResponseDto orders(OrderRequestDto dto);
     public String payment();
     public boolean deleteorder(int orderId);
+
 }

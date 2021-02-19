@@ -1,9 +1,0 @@
-com\sk\magicaldrops\controller\ConsumerController.class
-com\sk\magicaldrops\dto\OrderRequestDto.class
-com\sk\magicaldrops\Entity\Order.class
-com\sk\magicaldrops\dto\ConsumerDto.class
-com\sk\magicaldrops\SpringFoxConfig.class
-com\sk\magicaldrops\dto\OrderResponseDto.class
-com\sk\magicaldrops\service\ConsumerServiceImpl.class
-com\sk\magicaldrops\service\ConsumerService.class
-com\sk\magicaldrops\MagicaldropsApplication.class

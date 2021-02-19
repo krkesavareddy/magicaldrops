@@ -21,8 +21,8 @@ log.info("helthcheck started in consumer");
     }
 
     @PostMapping("/register")
-    public int userRegistration(@RequestBody ConsumerDto consumerDto) {
-        return service.register(consumerDto);
+    public void userRegistring(@RequestBody ConsumerDto consumerDto) {
+         service.register(consumerDto);
     }
 
     @GetMapping("/validate/{otp}")

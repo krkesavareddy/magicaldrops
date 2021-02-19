@@ -1,17 +1,26 @@
 package com.sk.magicaldrops.service;
 
+import com.sk.magicaldrops.Entity.ConsumerEntity;
 import com.sk.magicaldrops.dto.ConsumerDto;
 import com.sk.magicaldrops.dto.OrderRequestDto;
 import com.sk.magicaldrops.dto.OrderResponseDto;
+import com.sk.magicaldrops.mapper.Converter;
+import com.sk.magicaldrops.reository.ConsumerRepostory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
 public class ConsumerServiceImpl implements ConsumerService {
-
+@Autowired
+    ConsumerRepostory consumerRepostory;
     @Override
-    public int register(ConsumerDto dto) {
+    public void register(ConsumerDto dto) {
         //we are just saving User detailes and sent OTP to phone for validate.
-        return 1010;
+        ConsumerEntity consumerEntity = Converter.transferToEntity(dto);
+        System.out.println(consumerEntity.toString());
+        consumerRepostory.save(consumerEntity);
+         //call sendOTP(ConsumerEntity.phone()  --->if send true then we need to update ValidateOTP column as True
+        return ;
     }
 
     @Override
