@@ -16,6 +16,7 @@
         <module>consumer</module>
         <module>produser</module>
         <module>Validation</module>
+        <module>Order</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

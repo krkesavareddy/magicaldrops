@@ -5,12 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf01921d-c768-4da0-ad04-ee177b193aac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Validation/Order.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wsuply/consumer/consumer.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wsuply/produser/produser.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wsuply/wsuply.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/sk/magicaldrops/Entity/ConsumerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/sk/magicaldrops/Entity/ConsumerEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Validation/Validation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Order/Order.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/sk/magicaldrops/Entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/Order/src/main/java/com/sk/magicaldrops/entity/OrderEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -47,11 +51,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Validation/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Reddy\Sproj\magicaldrops" />
       <recent name="D:\Reddy\Sproj\magicaldrops\Validation\src\main" />
       <recent name="D:\Reddy\Sproj\magicaldrops\produser\src\main\resources" />
       <recent name="D:\Reddy\Sproj\magicaldrops\Validation" />
