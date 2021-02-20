@@ -13,12 +13,12 @@ import java.io.Serializable;
 @Data
 @NoArgsConstructor
 @ToString
-@Table(name="CONSUMERS")
+@Table(name="consumers")
 @Entity
 public class ConsumerEntity implements Serializable {
 
    @Id
-   @GeneratedValue(strategy = GenerationType.AUTO)
+   @GeneratedValue(strategy = GenerationType.IDENTITY)
    @Column(name = "CONSUMER_ID")
    private Long consumerId;
 
@@ -40,6 +40,9 @@ public class ConsumerEntity implements Serializable {
     private String geoLocation;
 
     @Column(name ="IS_OTPVALIDATED")
-    private Boolean isValidated =false;
+    private Boolean isOtpValidated =false;
 
 }
+
+//NOTE::While refactry we need to figureout this error;
+//a)now we have used Auto_Increment constrant in database but we need to use some  hihernate generater(AUTO,DENTITY..etc)

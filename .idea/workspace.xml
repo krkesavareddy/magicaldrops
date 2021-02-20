@@ -5,55 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf01921d-c768-4da0-ad04-ee177b193aac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/sk/magicaldrops/Entity/ConsumerEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/sk/magicaldrops/mapper/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/sk/magicaldrops/reository/ConsumerRepostory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/target/classes/com/sk/magicaldrops/Entity/ConsumerEntity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/target/classes/com/sk/magicaldrops/mapper/Converter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/target/classes/com/sk/magicaldrops/reository/ConsumerRepostory.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wsuply/consumer/consumer.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wsuply/produser/produser.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../wsuply/wsuply.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Validation/target/classes/com/sk/magicaldrops/MagicaldropsApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Validation/target/classes/com/sk/magicaldrops/controller/ValidationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Validation/target/classes/com/sk/magicaldrops/service/ValidationService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Validation/target/classes/com/sk/magicaldrops/service/ValidationServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Validation/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Validation/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/sk/magicaldrops/Entity/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/sk/magicaldrops/Entity/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/sk/magicaldrops/MagicaldropsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/sk/magicaldrops/MagicaldropsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/sk/magicaldrops/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/sk/magicaldrops/controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/sk/magicaldrops/service/ConsumerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/sk/magicaldrops/service/ConsumerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/sk/magicaldrops/service/ConsumerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/sk/magicaldrops/service/ConsumerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/sk/magicaldrops/Entity/ConsumerEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/sk/magicaldrops/Entity/ConsumerEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/sk/magicaldrops/Entity/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/com/sk/magicaldrops/Entity/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/sk/magicaldrops/MagicaldropsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/com/sk/magicaldrops/MagicaldropsApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/sk/magicaldrops/controller/ConsumerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/com/sk/magicaldrops/controller/ConsumerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/sk/magicaldrops/service/ConsumerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/com/sk/magicaldrops/service/ConsumerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/classes/com/sk/magicaldrops/service/ConsumerServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/com/sk/magicaldrops/service/ConsumerServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/classes/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/consumer-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/consumer-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/consumer-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/consumer-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/surefire-reports/TEST-com.sk.magicaldrops.MagicaldropsApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/surefire-reports/com.sk.magicaldrops.MagicaldropsApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/target/test-classes/com/sk/magicaldrops/MagicaldropsApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/produser/target/classes/com/sk/magicaldrops/Controller/ProduserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/produser/target/classes/com/sk/magicaldrops/MagicaldropsApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/produser/target/classes/com/sk/magicaldrops/dto/CanType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/produser/target/classes/com/sk/magicaldrops/dto/OrderNoticeRequestDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/produser/target/classes/com/sk/magicaldrops/dto/OrderNotificationResponceDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/produser/target/classes/com/sk/magicaldrops/dto/ProduserRegisterRequestDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/produser/target/classes/com/sk/magicaldrops/service/ProduserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/produser/target/classes/com/sk/magicaldrops/service/ProduserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/produser/target/test-classes/com/sk/magicaldrops/MagicaldropsApplicationTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
