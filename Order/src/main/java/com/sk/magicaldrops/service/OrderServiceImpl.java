@@ -15,7 +15,7 @@ OrderRepository orderRepository;
         OrderEntity orderEntity = new OrderEntity();
         orderEntity.setConsumerId(dto.getConsumerId());
         orderEntity.setConsumerPhone(dto.getConsumerPhone());
-        orderEntity.setProducerAddress(dto.getConsumerDelivaryAddress());
+        orderEntity.setConsumerDeliveryAddress(dto.getConsumerDelivaryAddress());
         orderEntity.setConsumerOrderedCanDetails(dto.getConsumerOrderList());
         orderEntity.setConsumerOrderdCanPrice(dto.getConsumerOrderedCanPrice());
 
