@@ -20,8 +20,8 @@ log.info("helthcheck started in produser");
         return "I am produser service i am OK!";
     }
     @PostMapping("/register")
-    public int registration(@RequestBody ProduserRegisterRequestDto produserRegisterRequestDto){
-     return produserServie.registration(produserRegisterRequestDto);
+    public void  registration(@RequestBody ProduserRegisterRequestDto produserRegisterRequestDto){
+     produserServie.registration(produserRegisterRequestDto);
     }
     @GetMapping("/validate/{otp}")
     public String validateOTP(@PathVariable int otp) {
