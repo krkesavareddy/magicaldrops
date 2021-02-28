@@ -3,14 +3,21 @@ package com.sk.magicaldrops.service;
 import com.sk.magicaldrops.dto.OrderNoticeRequestDto;
 import com.sk.magicaldrops.dto.OrderNotificationResponceDto;
 import com.sk.magicaldrops.dto.ProduserRegisterRequestDto;
+import com.sk.magicaldrops.entity.Produser;
 import org.springframework.stereotype.Service;
 
 @Service
 public class ProduserServiceImpl implements ProduserService{
     @Override
-    public int registration(ProduserRegisterRequestDto produserRegisterRequestDto) {
+    public void registration(ProduserRegisterRequestDto produserRegisterRequestDto) {
        //store the produser data and return the OTP
-        return 1010;
+        Produser produser = new Produser();
+        produser.setGeoLocation(produserRegisterRequestDto.getGeoLocation());
+        produser.setPhoneNumber(produserRegisterRequestDto.getPhone());
+        produser.setShopAddress(produserRegisterRequestDto.getShopAddress());
+        produser.setShopName(produserRegisterRequestDto.getShopName());
+
+        return ;
     }
 
     @Override

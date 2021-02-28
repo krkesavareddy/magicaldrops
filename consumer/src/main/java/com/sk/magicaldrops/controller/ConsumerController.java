@@ -8,6 +8,8 @@ import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+//import javax.validation.Valid;
+
 @RestController
 @RequestMapping("/consumer")
 public class ConsumerController {
@@ -21,7 +23,9 @@ log.info("helthcheck started in consumer");
     }
 
     @PostMapping("/register")
-    public void userRegistring(@RequestBody ConsumerDto consumerDto) {
+    public void userRegistring(  @RequestBody ConsumerDto consumerDto) { //@Valid
+
+       //System.out.println("sending Dto to service");
          service.register(consumerDto);
     }
 

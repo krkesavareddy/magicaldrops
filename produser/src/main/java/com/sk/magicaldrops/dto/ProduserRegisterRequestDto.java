@@ -10,7 +10,7 @@ public class ProduserRegisterRequestDto implements Serializable {
     private String shopName;
     private String shopAddress;
     private String geoLocation;
-    private String canTypeAvailable;
+   // private String canTypeAvailable;
     private Long Phone;
 }
 
